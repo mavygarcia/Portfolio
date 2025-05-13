@@ -130,6 +130,35 @@ h1{
   font-size: 0.95rem;
   color: var(--claro);
 }
+.competencias {
+  margin-top: 3rem;
+  padding: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  border: 1px solid var(--fundo);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+.competencias:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.items_competencias {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  color: var(--claro);
+  line-height: 1.8;
+}
+
+.lista_competencias li {
+  margin-bottom: 0.8rem;
+}
+
 .imagem_projeto{
     height: 200px;
     width: 100%;

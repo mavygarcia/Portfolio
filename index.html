@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" a href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Portfólio</title>
 </head>
 <body>
@@ -12,10 +13,10 @@
         <nav class="navegacao">
             <ul class="menu">
                 <li><a href="#inicio" class="nav_link">Inicio</li></a></li>
-                <li><a href="#sobre" class="nav_link">Sobre</li></a></li>
-                <li><a href="#academico" class="nav_link">Acadêmico</li></a></li>
-                <li><a href="#projetos" class="nav_link">Projetos</li></a></li>
-                <li><a href="#contatos" class="nav_link">Contatos</li></a></li>
+                <li><a href="#sobre" class="nav_link">Sobre</a></li>
+                <li><a href="#academico" class="nav_link">Acadêmico</a></li>
+                <li><a href="#projetos" class="nav_link">Projetos</a></li>
+                <li><a href="#contatos" class="nav_link">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -27,11 +28,14 @@
     <section id="sobre" class="sobre">
         <h2 class="sobre_titulo">Sobre mim</h2>
         <div class="sobre_mim">
-            <p class="texto-sobre">Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, movida pela paixão em descobrir tudo o que a tecnologia é capaz de transformar.
-                Estou em constante evolução na área de banco de dados, atuando como DBA MySQL pelo programa Acelera Jovem, da Dataside. 
-                Meu interesse por conhecimento vai além do mundo da tecnologia — também sou apaixonada por leitura e livros, tendo cursado até o 3º período de Biblioteconomia.
-                Hoje, meu principal foco está no desenvolvimento de habilidades sólidas em banco de dados, buscando cada vez mais o aprendizado na área e a construção de soluções eficientes, seguras e bem estruturadas.
-
+            <p class="texto-sobre">Sou natural de Mato Grosso do Sul, morei por alguns anos no Rio de Janeiro 
+                e atualmente vivo em São José dos Campos.
+                 Sempre fui apaixonada por livros, especialmente os de fantasia, distopia e romance.
+                Atualmente, curso Análise e Desenvolvimento de Sistemas, mas já tive contato com outras áreas do conhecimento, 
+                como a Biblioteconomia, que me ensinou a importância da organização e da informação.
+                Hoje, meu foco está em explorar o que a tecnologia é capaz de transformar,
+                e venho me dedicando principalmente à área de banco de dados, onde estou me aprimorando cada vez mais. 
+                Sou movida por desafios e pela vontade de aprender continuamente.
             </p>
         </div>
     </section> 
@@ -51,17 +55,31 @@
                 <p class="sobre_academico">Atualmente atuo como aprendiz de DBA MySQL no programa Acelera Jovem, da empresa Dataside.</p>
             </div>
         </div>
+        <div class="competencias">
+            <h3 class="titulo_academico">Competências Técnicas</h3>
+            <ul class="items_competencias">
+                <li><strong>Linguagens:</strong> C, Python, SQL, HTML, CSS</li>
+                <li><strong>Frameworks:</strong> Flask</li>
+                <li><strong>Ferramentas:</strong> Git, MySQL, Linux</li>
+        </ul>
+  </div>
+</section>
     </section>
     <section id="projetos" class="projetos">
         <h2 class="titulo_projetos">Meus Projetos</h2>
         <div class="card">
             <div class="card-projetos">
-                <a href="https://github.com/Gustavo-Zago/DevForge-Atestados-Scrum.git" target="_blank">
-                <img src="./img/devforge.jpeg" alt="imagem projeto1" class="imagem_projeto">
+                <a href="https://github.com/mavygarcia/Aura_Flowers.git" target="_blank">
+                <img src="./img/auraflowers.png" alt="imagem projeto1" class="imagem_projeto">
+                 </a>
                 <div class="texto_projetos">
-                    <h3 class="info">Api DevForge</h3>
-                    <p class="paragrafo_projeto">Front-end</p>
-                </a>
+                    <h3 class="info">Aura Flowers</h3>
+                    <p class="paragrafo_projeto">Desenvolvi um site floricultura AuraFlowers, 
+                        utilizando exclusivamente HTML5 e CSS3. O objetivo do projeto foi criar uma interface agradável,  
+                        responsiva e funcional, destacando os produtos, serviços e identidade visual da marca. 
+                        A estrutura foi construída com foco em boas práticas de semântica e organização de conteúdo, 
+                        proporcionando uma navegação fluida para o usuário. 
+                    </p>
                 </div>
             </div>
             <div class="card-projetos">
@@ -70,22 +88,30 @@
                 </a>
                 <div class="texto_projetos">
                     <h3 class="info">Api DevForge</h3>
-                    <p class="paragrafo_projeto">O produto tem como objetivo facilitar o envio, 
-                        a verificação e o gerenciamento de atestados médicos dentro da instituição, 
-                        garantindo maior agilidade e transparência no processo. 
-                        Além disso, a solução contará com um sistema completo de cadastro
-                        e avaliação de equipes Scrum, permitindo um acompanhamento mais preciso do desempenho,
-                        colaboração e produtividade dos times. 
+                    <p class="paragrafo_projeto"> Sistema web para gestão de atestados médicos e avaliação de equipes Scrum,
+                        utilizando HTML, CSS, Bootstrap e JavaScript no front-end, Python com Flask no back-end.
+                        Fui responsável por desenvolver 
+                        a funcionalidade no back-end que exibe o atestado em PDF,
+                        além de implementar os botões de aceitar ou recusar o documento.
+                        Também atuei na criação da interface de visualização e organização das equipes ágeis,
+                        garantindo uma experiência responsiva e eficiente para os administradores do sistema.
                          </p>
                 </div>
             </div>
             <div class="card-projetos">
-                <a href="https://github.com/Gustavo-Zago/DevForge-Atestados-Scrum.git">
-                <img src="./img/devforge.jpeg" alt="imagem projeto1" class="imagem_projeto">
-                <div class="texto_projetos">
-                    <h3 class="info">Api DevForge</h3>
-                    <p class="paragrafo_projeto">Front-end</p>
+                <a href="https://www.onlinegdb.com/inx_-L27c">
+                <img src="./img/projetoc.png" alt="imagem projeto1" class="imagem_projeto">
                 </a>
+                <div class="texto_projetos">
+                    <h3 class="info">Sistema de Hamburgueria</h3>
+                    <p class="paragrafo_projeto">Este projeto foi desenvolvido em linguagem C
+                         e consiste em um sistema de pedidos de hambúrgueres.
+                        A aplicação permite registrar até quatro pedidos, armazenando também o sexo de cada cliente. 
+                        Após o registro, o sistema realiza cálculos estatísticos com base nas informações fornecidas,
+                        como a quantidade de pedidos por sexo e o total de hambúrgueres vendidos.
+                        Ao final, um menu interativo é exibido para que o usuário possa consultar detalhes específicos dos pedidos
+                        e visualizar os dados de forma organizada. Esse projeto foi importante para exercitar lógica de programação,
+                        uso de estruturas de repetição, condicionais e manipulação de dados em linguagem C.</p>
                 </div>
             </div>
         </div>
@@ -93,10 +119,10 @@
     <section id="contatos" class="contatos">
         <h2 class="titulo_contatos">Contatos</h2>
         <div class="contatos_caixa">
-            <a href="www.linkedin.com/in/marya-vitória-garcia-246b77332" target="_blank">
+            <a href="https://github.com/mavygarcia" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/seu-usuario" target="_blank">
+            <a href="https://www.linkedin.com/in/marya-vit%C3%B3ria-garcia-246b77332/" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://www.instagram.com/mavygarcia_/" target="_blank">
