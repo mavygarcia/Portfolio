@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" a href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <title>Portfólio</title>
@@ -12,18 +13,38 @@
     <header>
         <nav class="navegacao">
             <ul class="menu">
-                <li><a href="#inicio" class="nav_link">Inicio</li></a></li>
+                <li><a href="#inicio" class="nav_link">Inicio</a></li>
                 <li><a href="#sobre" class="nav_link">Sobre</a></li>
                 <li><a href="#academico" class="nav_link">Acadêmico</a></li>
+                 <li><a href="#habilidades" class="nav_link">Habilidades</a></li>
                 <li><a href="#projetos" class="nav_link">Projetos</a></li>
-                <li><a href="#contatos" class="nav_link">Contatos</a></li>
             </ul>
         </nav>
     </header>
     <main id="inicio"  class="perfil">
-            <img src="./img/perfil.jpeg" alt="imagem de perfil" class="imagem_perfil">
-            <h1>Marya Vitória Garcia</h1>
-            <p class="texto_perfil"> Estudante de Análise e Desenvolvimento de Sistemas</p>
+            <div class="perfil_container">
+                <div class="perfil_texto">
+                <h1 class="digita">Hello, World!</h1>
+                <h2>I'm, Marya</h2>
+                <p class="texto_perfil"> Estudante de Análise e Desenvolvimento de Sistemas</p>
+                <section id="contatos" class="contatos">
+                <div class="contatos_caixa">
+                    <a href="https://github.com/mavygarcia" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marya-vit%C3%B3ria-garcia-246b77332/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mavygarcia_/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </section>
+                </div>
+                <div class="perfil_imagem">
+                <img src="./img/perfil.jpeg" alt="imagem de perfil" class="imagem_perfil">
+                </div>
+            </div>
     </main>
     <section id="sobre" class="sobre">
         <h2 class="sobre_titulo">Sobre mim</h2>
@@ -47,23 +68,32 @@
                 <p class="sobre_academico">Fatec São José dos Campos, Fev 2024 - Dez 2027</p>
             </div>
             <div class="item_academico">
-                <h3 class="titulo_academico">Biblioteconomia</h3>
-                <p class="sobre_academico">Universidade Federal do Estado Rio de Janeiro - Cursado até 3 período</p>
-            </div>
-            <div class="item_academico">
                 <h3 class="titulo_academico">DBA My SQL</h3>
                 <p class="sobre_academico">Atualmente atuo como aprendiz de DBA MySQL no programa Acelera Jovem, da empresa Dataside.</p>
             </div>
+            <div class="item_academico">
+                <h3 class="titulo_academico">Biblioteconomia</h3>
+                <p class="sobre_academico">Universidade Federal do Estado Rio de Janeiro - Cursado até 3 período</p>
+            </div>
         </div>
-        <div class="competencias">
-            <h3 class="titulo_academico">Competências Técnicas</h3>
-            <ul class="items_competencias">
-                <li><strong>Linguagens:</strong> C, Python, SQL, HTML, CSS</li>
-                <li><strong>Frameworks:</strong> Flask</li>
-                <li><strong>Ferramentas:</strong> Git, MySQL, Linux</li>
-        </ul>
-  </div>
-</section>
+    </section>
+    <section id="habilidades" class="habilidades">
+            <h2 class="competencias_titulo">Skills</h2>
+             <div class="container-icons">
+                <div class="icons">
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-c-plain colored"></i>
+                </div>
+                <div class="document-links">
+                    <a href="arquivos/Curriculo_Marya.pdf" target="_blank" class="btn-link">📄 Currículo</a>
+                    <a href="img/Certificado- Marya Vitória de Assis Lemos Garcia Cândido .png" target="_blank" class="btn-link">🎓 Certificado Git</a>
+                </div>
+            </div>
     </section>
     <section id="projetos" class="projetos">
         <h2 class="titulo_projetos">Meus Projetos</h2>
@@ -94,8 +124,8 @@
                         a funcionalidade no back-end que exibe o atestado em PDF,
                         além de implementar os botões de aceitar ou recusar o documento.
                         Também atuei na criação da interface de visualização e organização das equipes ágeis,
-                        garantindo uma experiência responsiva e eficiente para os administradores do sistema.
-                         </p>
+                        garantindo uma experiência eficiente para os administradores do sistema.
+                    </p>
                 </div>
             </div>
             <div class="card-projetos">
@@ -116,22 +146,6 @@
             </div>
         </div>
     </section>
-    <section id="contatos" class="contatos">
-        <h2 class="titulo_contatos">Contatos</h2>
-        <div class="contatos_caixa">
-            <a href="https://github.com/mavygarcia" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/marya-vit%C3%B3ria-garcia-246b77332/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/mavygarcia_/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </section>
-
-
 
 
 
