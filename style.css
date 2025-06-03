@@ -10,9 +10,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background: linear-gradient(-45deg, #20013a, #20013a, #a319ff, #36056e);
+    background: linear-gradient(-45deg, #20013a, #20013a, #20013a, #20013a);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
     color:var(--claro);
 }
 
@@ -222,6 +221,47 @@ h2{
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.05);
   transition: transform 0.3s ease;
+}
+.card-softskills{
+  gap:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  border: 1px solid var(--fundo);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+.card-softskills:hover{
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.lista-softskills {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.lista-softskills li {
+    background-color: #3e0057;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.lista-softskills li:hover{
+   background-color: #005fa3;
 }
 .icons i {
   font-size: 60px;
