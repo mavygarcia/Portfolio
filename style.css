@@ -251,33 +251,33 @@ h2{
     transform: scale(1.2);
 }
 
-/* Cores diferentes para cada ícone */
+
 .icon:nth-child(1):hover i {
-    color: #e44d26; /* HTML5 */
+    color: #e44d26; 
 }
 
 .icon:nth-child(2):hover i {
-    color: #2965f1; /* CSS3 */
+    color: #2965f1; 
 }
 
 .icon:nth-child(3):hover i {
-    color: #ffd43b; /* Python */
+    color: #ffd43b; 
 }
 
 .icon:nth-child(4):hover i {
-    color: #00758f; /* MySQL */
+    color: #00758f; 
 }
 
 .icon:nth-child(5):hover i {
-    color: #f0db4f; /* Linux (pode escolher outra cor que combine) */
+    color: #f0db4f; 
 }
 
 .icon:nth-child(6):hover i {
-    color: #f1502f; /* Git */
+    color: #f1502f; 
 }
 
 .icon:nth-child(7):hover i {
-    color: #00599c; /* C */
+    color: #00599c;
 }
 
 .card-softskills{
