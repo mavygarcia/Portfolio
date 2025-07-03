@@ -109,6 +109,8 @@ body {
   display: flex;
   justify-content: center;
   min-width: 300px;
+  align-self: flex-start;
+  margin-top: -90px;
 }
 .imagem_perfil{
 
@@ -145,13 +147,16 @@ h2{
 }
 .sobre_mim{
     padding:2rem;
-    max-width: 600px;
+    height: 250px;
+    max-width: 900px;
     margin:0 auto;
     border-radius: 16px;
     border: 1px solid var(--fundo);
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.05);
     transition: transform 0.3s ease;
+    text-align: center;
+    font-size: 1.1rem;
 
 }
 .sobre_mim:hover{
@@ -222,6 +227,59 @@ h2{
   background: rgba(255, 255, 255, 0.05);
   transition: transform 0.3s ease;
 }
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon {
+    font-size: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* Cores diferentes para cada ícone */
+.icon:nth-child(1):hover i {
+    color: #e44d26; /* HTML5 */
+}
+
+.icon:nth-child(2):hover i {
+    color: #2965f1; /* CSS3 */
+}
+
+.icon:nth-child(3):hover i {
+    color: #ffd43b; /* Python */
+}
+
+.icon:nth-child(4):hover i {
+    color: #00758f; /* MySQL */
+}
+
+.icon:nth-child(5):hover i {
+    color: #f0db4f; /* Linux (pode escolher outra cor que combine) */
+}
+
+.icon:nth-child(6):hover i {
+    color: #f1502f; /* Git */
+}
+
+.icon:nth-child(7):hover i {
+    color: #00599c; /* C */
+}
+
 .card-softskills{
   gap:2rem;
   display: flex;
@@ -365,4 +423,12 @@ h2{
 .contatos_caixa a:hover {
   transform: scale(1.2);
   color: rgb(23, 2, 43);
+}
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(68, 25, 85, 0.678);
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 3rem;
 }
